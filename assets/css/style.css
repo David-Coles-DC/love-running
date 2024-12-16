@@ -212,6 +212,22 @@ main {
     #cover-text {
         right: 50px;
     }
+
+    /* Reasons section */
+    #benefits>div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits>div>div {
+        width: 75%;
+    }
+
+    #benefits-mental>div {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
 /* Media query for desktops - 992px and above */
@@ -221,5 +237,29 @@ main {
     /* Header */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+}
+
+/* Media query for desktops - 1200px and above */
+
+@media screen and (min-width: 1200px) {
+
+    /* Header */
+    #benefits {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #benefits h2 {
+        flex: 0 0 100%;
+    }
+
+    #benefits>div {
+        flex: 0 0 350px;
+    }
+
+    #benefits-mental {
+        order: 3;
     }
 }
