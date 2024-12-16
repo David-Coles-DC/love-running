@@ -114,8 +114,48 @@ main {
     padding: 40px 0 40px 10px;
 }
 
-#cover-text h2, #cover-text h3 {
+#cover-text h2,
+#cover-text h3 {
     color: #ffffff;
+}
+
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+}
+
+#reasons h2 {
+    font-size: 280%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#benefits>div>div {
+    margin-bottom: 20px;
+}
+
+#benefits>div>div hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits>div>div p {
+    padding-left: 20px;
+}
+
+#circle-cover-bg {
+    background: url('../images/reasons-image.webp') no-repeat center center / cover;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    aspect-ratio: 1/1;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
