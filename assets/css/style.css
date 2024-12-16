@@ -56,7 +56,7 @@ header a {
     list-style: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -105,6 +105,7 @@ footer {
 /* Media query for tablets - 768px and above */
 
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -118,7 +119,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -135,5 +136,15 @@ footer {
     /* Main content */
     main {
         margin-top: 75px;
+    }
+}
+
+/* Media query for desktops - 992px and above */
+
+@media screen and (min-width: 992px) {
+
+    /* Header */
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
