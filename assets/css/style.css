@@ -32,6 +32,10 @@ h6 {
     color: #252525;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
